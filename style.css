@@ -58,7 +58,7 @@ body {
 .hero {
   text-align: center;
   padding: 101px ;
-  background-image: url(assets/hero-bg.png);
+  background-image: url(./assets/hero-bg.png);
   background-size: 100%;
   background-repeat:  no-repeat;
   align-items: center;
@@ -290,9 +290,6 @@ body {
  width: 20px;
 
 }
-
-
-
 /* HOST */
 .host h2{
   font-size: 48px;
@@ -340,10 +337,11 @@ body {
 /* FOOTER */
 footer {
   height: 412px;
-  width: 1600px;
+  
   margin: 0px auto;
   text-align: center;
   background-image: url(./assets/footer-bg.png);
+  background-repeat: no-repeat;
   padding: 120px 0px;
 }
 footer h2 {
