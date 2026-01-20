@@ -272,6 +272,15 @@ button{
   border-radius: 30px;
   padding-bottom: 40px;
 }
+@media (max-width: 768px) {
+  .card1,
+  .card,
+  .card2,
+  .card3 {
+    border-radius: 20px;
+  }
+}
+
 /* EPISODES */
 .episodes {
   padding: 80px;
