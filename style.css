@@ -15,6 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   padding: 20px 80px;
   height: 92px;
 }
@@ -26,6 +27,7 @@ body {
   color: #ff3cac;
 }
 .logo{
+  font-size: 40px;
   
 }
 .navbar ul {
@@ -341,18 +343,48 @@ footer {
   width: 1600px;
   margin: 0px auto;
   text-align: center;
-  padding: 40px;
   background-image: url(./assets/footer-bg.png);
   padding: 120px 0px;
 }
-footer h2{
-  font-size: ;
+footer h2 {
+    font-size: 70px;
+    font-weight: 800;
+
+    /* 👇 Gradient here */
+    background: linear-gradient(
+        90deg,
+        #F7E93F 0%,
+        #FB09B4 51%,
+        #9100F8 100%
+    );
+
+    /* 👇 THIS is the key */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* fallback */
+
+    display: inline-block; /* VERY IMPORTANT */
 }
+
 .img-link {
+  
   color: #FFFFFF;
   height: 24px;
   width: 544px;
   display: flex;
-  gap: 40px;
-  justify-content: space-between;
+  margin: 32px auto;
+  gap: 25px;
+  
+}
+.img-link a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500px;
+}
+.img-f{
+  display: flex;
+  gap: 8px;
 }
