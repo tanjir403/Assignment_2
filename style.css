@@ -88,8 +88,8 @@ button{
   position: relative;
 }
 .mic-circle img{
-  height: 200px;
-  width: 200px;
+  height: 175px;
+  width: 116.67px;
 
   animation: slowRotate 15s linear infinite;
 }
@@ -201,6 +201,8 @@ button{
 .why h2{
   text-align: center;
   margin-top: 120px;
+  font-size: 48px;
+  font-weight: bold;
 }
 .why h3{
   margin: 16px 0px;
@@ -277,9 +279,14 @@ button{
 .episodes {
   padding: 80px;
 }
-#c23{
+#c23 {
   text-align: center;
+  font-size: 48px;
+  font-weight: bold;
   margin-bottom: 40px;
+  height: 58px;
+  width: 1200px;
+  margin: 40px auto;
 }
 .episode-cards {
   display: flex;
@@ -369,8 +376,8 @@ button{
 /* FOOTER */
 footer {
   height: 412px;
-  
-  margin: 0px auto;
+  width: 1600px;
+  margin: 120px auto;
   text-align: center;
   background-image: url(./assets/footer-bg.png);
   background-repeat: no-repeat;
